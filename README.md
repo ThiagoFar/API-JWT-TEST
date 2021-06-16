@@ -1,5 +1,9 @@
-# node-mysql-registration-login-api
+Prova Analista Júnior
 
-Node.js + MySQL API for User Management, Authentication and Registration
+Tecnologias:
 
-For documentation and instructions see https://jasonwatmore.com/post/2020/08/18/nodejs-mysql-simple-api-for-authentication-registration-and-user-management
+a API é escrita em JavaScript com Node.js
+
+login usando autenticação JWT .
+
+
