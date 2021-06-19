@@ -3,8 +3,8 @@
         "host": "localhost",
         "port": 3306,
         "user": "root",
-        "password": "",
-        "database": "node-mysql-registration-login-api"
+        "password": "staraligner",
+        "database": "polaris"
     },
     "secret": "d0f509a6-1cd1-4811-8d96-29ae75272a15"
 }
