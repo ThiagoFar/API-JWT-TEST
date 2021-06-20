@@ -4,20 +4,20 @@ Prova Engenheiro de Software Jr
 Tecnologias:
 
 
-a API é escrita em JavaScript com Node.js 
+A API é escrita em JavaScript com Node.js 
 
 
-login usando autenticação JWT.
+Login usando autenticação JWT.
 
 
 Mysql para gerenciar o banco.
 
 
-Exemplo de frontEnd usando React.js 
+FrontEnd usando React.js 
 
 
 
-Instruções:
+--------------------------------Instruções:--------------------------------
 
 1 - Instalar o Node.Js https://nodejs.org/en/download/.
 
@@ -50,6 +50,7 @@ Link de um video rodando as funcionalidades básicas: https://www.youtube.com/wa
 
 {"message":"Registration successful"}
 
+  ------------------------------------------------------------------------------------------------
 //2.Logar em usuário
 
 	curl --location --request POST 'http://localhost:4000/users/authenticate' \
@@ -72,7 +73,7 @@ Link de um video rodando as funcionalidades básicas: https://www.youtube.com/wa
 		"updatedAt": "2021-06-20T14:05:40.000Z",
 		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjcsImlhdCI6MTYyNDE5Nzk0NiwiZXhwIjoxNjI0ODAyNzQ2fQ.RJVsGupFnz5r84ZpgQgajFbt_AFOnRNmFESVCZxmWng"
 	}
-
+------------------------------------------------------------------------------------------------
 //3.Ver lista de usuários
 
 curl --location --request GET 'http://localhost:4000/users'
@@ -130,6 +131,6 @@ curl --location --request GET 'http://localhost:4000/users'
 		"createdAt": "2021-06-20T14:05:40.000Z",
 		"updatedAt": "2021-06-20T14:06:22.628Z"
 	}
-
+	------------------------------------------------------------------------------------------------
 
 Duvidas: thiagorodrigues@email.com  -  (61)999320640
