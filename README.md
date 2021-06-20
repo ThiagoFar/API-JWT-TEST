@@ -22,8 +22,41 @@ Instruções:
 
 5 - Caso queira vizualizar o exemplo de front end basta executar no cmd o comando "npm start" dentro de API-JWT-TEST\react frontend, a página em http://localhost:8080/login deve abrir automaticamente.
 
-Link de um video rodando as funcionalidades básicas: 
+Link de um video rodando as funcionalidades básicas: https://www.youtube.com/watch?v=WAdSP-BesdU  (assistir em tela cheia).
 
 Curl de requests exportado do Postman:
+
+//Registrar usuário
+curl --location --request POST 'http://localhost:4000/users/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "",
+    "lastName": "",
+    "cpf": " ",
+    "username": "",
+    "password": "",
+    "cep": ""
+}'
+
+//Logar em usuário
+curl --location --request POST 'http://localhost:4000/users/authenticate' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "username": "",
+    "password": ""
+}'
+
+//Ver lista de usuários
+curl --location --request GET 'http://localhost:4000/users'
+
+//Alterar um ou mais campos 
+curl --location --request PUT 'http://localhost:4000/users/7' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "cpf": "1445159746"
+}'
+
+
+
 
 Duvidas: thiagorodrigues@email.com  -  (61)999320640
