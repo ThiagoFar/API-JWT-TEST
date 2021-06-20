@@ -1,14 +1,20 @@
 Prova Engenheiro de Software Jr
 
+
 Tecnologias:
+
 
 a API é escrita em JavaScript com Node.js 
 
+
 login usando autenticação JWT.
+
 
 Mysql para gerenciar o banco.
 
+
 Exemplo de frontEnd usando React.js 
+
 
 Instruções:
 
@@ -27,6 +33,7 @@ Link de um video rodando as funcionalidades básicas: https://www.youtube.com/wa
 Curl de requests exportado do Postman:
 
 //1.Registrar usuário
+
 curl --location --request POST 'http://localhost:4000/users/register' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -38,6 +45,7 @@ curl --location --request POST 'http://localhost:4000/users/register' \
     "cep": ""
 }'
 //1.Exemplo de response
+
 {"message":"Registration successful"}
 
 //2.Logar em usuário
@@ -48,6 +56,7 @@ curl --location --request POST 'http://localhost:4000/users/authenticate' \
     "password": ""
 }'
 //2.Exemplo de response
+
 {
     "id": 7,
     "firstName": "John",
@@ -61,9 +70,11 @@ curl --location --request POST 'http://localhost:4000/users/authenticate' \
 }
 
 //3.Ver lista de usuários
+
 curl --location --request GET 'http://localhost:4000/users'
 
 //3.Exemplo de response
+
     {
         "id": 1,
         "firstName": "Enrico",
@@ -96,13 +107,15 @@ curl --location --request GET 'http://localhost:4000/users'
     },
 
 //4.Alterar um ou mais campos 
+
 curl --location --request PUT 'http://localhost:4000/users/7' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "cpf": "1445159746"
 }'
 
-//3.Exemplo de response
+//4.Exemplo de response
+
 {
     "id": 7,
     "firstName": "John",
