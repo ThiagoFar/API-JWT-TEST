@@ -21,7 +21,7 @@ function HomePage() {
         <div className="col-lg-8 offset-lg-2">
             <h1>Olá {user.firstName}!</h1>
             <p></p>
-            <h3>All registered users:</h3>
+            <h3>Lista de usuários:</h3>
             {users.loading && <em>Loading users...</em>}
             {users.error && <span className="text-danger">ERROR: {users.error}</span>}
             {users.items &&
